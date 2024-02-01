@@ -1,0 +1,168 @@
+{
+    "breakfast": [
+        {
+            "name": "Classic Eggs Benedict",
+            "description": "Poached eggs on toasted English muffins with Canadian bacon and hollandaise sauce.",
+            "price": 12.99,
+            "ingredients": [
+                "Eggs",
+                "English muffin",
+                "Canadian bacon",
+                "Hollandaise sauce"
+            ],
+            "options": [
+                "Gluten-free muffin",
+                "Turkey bacon"
+            ],
+            "availability": "7am - 11am"
+        },
+        {
+            "name": "Blueberry Pancakes",
+            "description": "Fluffy pancakes filled with fresh blueberries, served with maple syrup and whipped cream.",
+            "price": 10.5,
+            "ingredients": [
+                "Flour",
+                "Blueberries",
+                "Eggs",
+                "Milk",
+                "Maple syrup",
+                "Whipped cream"
+            ],
+            "options": [
+                "Add banana",
+                "Chocolate chips"
+            ],
+            "availability": "7am - 11am"
+        }
+    ],
+    "coffee": [
+        {
+            "name": "Espresso",
+            "description": "Rich and bold espresso, freshly brewed.",
+            "price": 3.0,
+            "ingredients": [
+                "Espresso"
+            ],
+            "options": [
+                "Double shot",
+                "With milk"
+            ],
+            "availability": "All day"
+        },
+        {
+            "name": "Cappuccino",
+            "description": "Espresso with steamed milk and a layer of frothy foam.",
+            "price": 4.5,
+            "ingredients": [
+                "Espresso",
+                "Milk",
+                "Foam"
+            ],
+            "options": [
+                "Vanilla flavor",
+                "Cinnamon"
+            ],
+            "availability": "All day"
+        }
+    ],
+    "main_course": [
+        {
+            "name": "Grilled Salmon",
+            "description": "Fresh salmon fillet, grilled to perfection, served with steamed vegetables and lemon butter sauce.",
+            "price": 18.99,
+            "ingredients": [
+                "Salmon fillet",
+                "Vegetables",
+                "Lemon",
+                "Butter"
+            ],
+            "options": [
+                "Extra lemon butter",
+                "Gluten-free"
+            ],
+            "availability": "11am - 10pm"
+        },
+        {
+            "name": "Vegetarian Lasagna",
+            "description": "Layers of pasta with roasted vegetables, ricotta, and marinara sauce, topped with mozzarella cheese.",
+            "price": 15.5,
+            "ingredients": [
+                "Pasta",
+                "Roasted vegetables",
+                "Ricotta",
+                "Marinara sauce",
+                "Mozzarella"
+            ],
+            "options": [
+                "Vegan cheese",
+                "Add chicken"
+            ],
+            "availability": "11am - 10pm"
+        }
+    ],
+    "starters": [
+        {
+            "name": "Bruschetta",
+            "description": "Toasted baguette slices topped with fresh tomatoes, basil, garlic, and olive oil.",
+            "price": 7.99,
+            "ingredients": [
+                "Baguette",
+                "Tomatoes",
+                "Basil",
+                "Garlic",
+                "Olive oil"
+            ],
+            "options": [
+                "Add mozzarella",
+                "Gluten-free baguette"
+            ],
+            "availability": "All day"
+        },
+        {
+            "name": "Chicken Wings",
+            "description": "Crispy chicken wings tossed in your choice of sauce.",
+            "price": 9.99,
+            "ingredients": [
+                "Chicken wings",
+                "Sauce"
+            ],
+            "options": [
+                "Buffalo sauce",
+                "BBQ sauce",
+                "Honey mustard"
+            ],
+            "availability": "All day"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Iced Tea",
+            "description": "Refreshing iced tea brewed with a hint of lemon.",
+            "price": 3.5,
+            "ingredients": [
+                "Tea",
+                "Lemon"
+            ],
+            "options": [
+                "Sweetened",
+                "Unsweetened"
+            ],
+            "availability": "All day"
+        },
+        {
+            "name": "Fresh Lemonade",
+            "description": "Homemade lemonade made with fresh lemons and sugar.",
+            "price": 4.0,
+            "ingredients": [
+                "Lemons",
+                "Sugar",
+                "Water"
+            ],
+            "options": [
+                "Add mint",
+                "Add strawberry"
+            ],
+            "availability": "All day"
+        }
+    ]
+}

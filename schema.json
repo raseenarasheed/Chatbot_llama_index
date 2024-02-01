@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "breakfast": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "price": {"type": "number"},
+          "ingredients": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "options": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "availability": {"type": "string"}
+        },
+        "required": ["name", "description", "price", "ingredients", "availability"],
+        "additionalProperties": false
+      }
+    },
+    "coffee": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "price": {"type": "number"},
+          "ingredients": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "options": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "availability": {"type": "string"}
+        },
+        "required": ["name", "description", "price", "ingredients", "availability"],
+        "additionalProperties": false
+      }
+    },
+    "main_course": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "price": {"type": "number"},
+          "ingredients": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "options": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "availability": {"type": "string"}
+        },
+        "required": ["name", "description", "price", "ingredients", "availability"],
+        "additionalProperties": false
+      }
+    },
+    "starters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "price": {"type": "number"},
+          "ingredients": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "options": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "availability": {"type": "string"}
+        },
+        "required": ["name", "description", "price", "ingredients", "availability"],
+        "additionalProperties": false
+      }
+    },
+    "drinks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "price": {"type": "number"},
+          "ingredients": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "options": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "availability": {"type": "string"}
+        },
+        "required": ["name", "description", "price", "ingredients", "availability"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["breakfast", "coffee", "main_course", "starters", "drinks"],
+  "additionalProperties": false
+}
